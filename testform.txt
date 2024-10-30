@@ -1,0 +1,357 @@
+<form method="POST" action="application_summer2015.asp" webbot-action="--WEBBOT-SELF--">
+	<input TYPE="hidden" NAME="VTI-GROUP" VALUE="0">
+	<table border="1" width="85%">
+		<tr>
+			<td width="20%">1. Name:</td>
+			<td width="20%"><input onClick="clearDefault(this)" type="text" name="firstname" size="20"></td>
+			<td width="17%"><input onClick="clearDefault(this)" type="text" name="middleinitial" size="20"></td>
+			<td width="17%"><input onClick="clearDefault(this)" type="text" name="lastname" size="20"></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">2. USF ID Number:</td>
+			<td width="20%"><input type="text" name="usfid" size="20"></td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">3. Address:</td>
+			<td colspan="2"><input type="text" name="streetaddress" size="41"></td>
+			<td width="17%"><input type="text" name="apt" size="20"></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td colspan="2">Street Address</td>
+			<td width="17%">Apt#</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td width="20%"><input type="text" name="city" size="20"></td>
+			<td width="17%"><input type="text" name="state" size="20"></td>
+			<td width="17%"><input type="text" name="zip" size="20"></td>
+			<td width="17%"><input type="text" name="telephone" size="20"></td>
+			<input type="radio" name="group1" value="Milk"> Milk<br>
+            <input type="radio" name="group1" value="Butter" checked> Butter<br>
+            <input type="radio" name="group1" value="Cheese"> Cheese
+            <hr>
+            <input type="radio" name="group2" value="Water"> Water<br>
+            <input type="radio" name="group2" value="Beer"> Beer<br>
+		</tr>
+
+
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td width="20%">City</td>
+			<td width="17%">State</td>
+			<td width="17%">Zip</td>
+			<td width="17%">Telephone</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">4. General Information:</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="34%" colspan="2">a. What is your gender?</td>
+			<td width="17%"><select size="1" name="gender">
+			<option>---</option>
+			<option>Female</option>
+			<option>Male</option>
+			</select></td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="34%" colspan="2">b. What is your marital status?</td>
+			<td width="17%"><select size="1" name="marital">
+			<option>---</option>
+			<option>Married</option>
+			<option>Single</option>
+			<option>Other</option>
+			</select></td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="34%" colspan="2">c. Are you a Florida resident?</td>
+			<td width="17%">
+			<select size="1" name="FL_Resident">
+			<option value="0">---</option>
+			<option value="-1">Yes</option>
+			<option value="0">No</option>
+			</select></td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+<tr>
+			<td width="34%" colspan="2">d. County of Residence?</td>
+			<td width="17%">
+			<select  name="county">
+	<option selected="selected" value="">Choose a County</option>
+	<option value="Alachua">Alachua</option>
+	<option value="Baker">Baker</option>
+	<option value="Bay">Bay</option>
+	<option value="Bradford">Bradford</option>
+	<option value="Brevard">Brevard</option>
+	<option value="Broward">Broward</option>
+	<option value="Calhoun">Calhoun</option>
+	<option value="Charlotte">Charlotte</option>
+	<option value="Citrus">Citrus</option>
+	<option value="Clay">Clay</option>
+	<option value="Collier">Collier</option>
+	<option value="Columbia">Columbia</option>
+	<option value="Miami-Dade">Dade</option>
+	<option value="Desoto">DeSoto</option>
+	<option value="Dixie">Dixie</option>
+	<option value="Duval">Duval</option>
+	<option value="Escambia">Escambia</option>
+	<option value="Flagler">Flagler</option>
+	<option value="Franklin">Franklin</option>
+	<option value="Gadsden">Gadsden</option>
+	<option value="Gilchrist">Gilchrist</option>
+	<option value="Glades">Glades</option>
+	<option value="Gulf">Gulf</option>
+	<option value="Hamilton">Hamilton</option>
+	<option value="Hardee">Hardee</option>
+	<option value="Glades">Hendry</option>
+	<option value="Hernando">Hernando</option>
+	<option value="Highlands">Highlands</option>
+	<option value="Hillsborough">Hillsborough</option>
+	<option value="Holmes">Holmes</option>
+	<option value="IndianRiver">Indian   River</option>
+	<option value="Jackson">Jackson</option>
+	<option value="Jefferson">Jefferson</option>
+	<option value="Lafayette">Lafayette</option>
+	<option value="Lake">Lake</option>
+	<option value="Lee">Lee</option>
+	<option value="Leon">Leon</option>
+	<option value="Levy">Levy</option>
+	<option value="Liberty">Liberty</option>
+	<option value="Madison">Madison</option>
+	<option value="Manatee">Manatee</option>
+	<option value="Marion">Marion</option>
+	<option value="Martin">Martin</option>
+	<option value="Monroe">Monroe</option>
+	<option value="Nassau">Nassau</option>
+	<option value="Okaloosa">Okaloosa</option>
+	<option value="Okeechobee">Okeechobee</option>
+	<option value="Orange">Orange</option>
+	<option value="Osceola">Osceola</option>
+	<option value="Palm%20Beach">Palm Beach</option>
+	<option value="Pasco">Pasco</option>
+	<option value="Pinellas">Pinellas</option>
+	<option value="Polk">Polk</option>
+	<option value="Putnam">Putnam</option>
+	<option value="SantaRosa">Santa   Rosa</option>
+	<option value="Sarasota">Sarasota</option>
+	<option value="Seminole">Seminole</option>
+	<option value="St.Johns">St. Johns</option>
+	<option value="St.Lucie">St. Lucie</option>
+	<option value="Sumter">Sumter</option>
+	<option value="Suwannee">Suwannee</option>
+	<option value="Taylor">Taylor</option>
+	<option value="Union">Union</option>
+	<option value="Volusia">Volusia</option>
+	<option value="Wakulla">Wakulla</option>
+	<option value="Walton">Walton</option>
+	<option value="Washington">Washington</option>
+</select></td>
+			<td width="17%">&nbsp;</td>
+			<td >&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td width="45%" colspan="2">e. Occupation?</td>
+			<td width="49%" colspan="3">
+			<input type="text" name="occupation" size="50"></td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">f. Number of hours worked?
+			<input type="text" name="workhours" size="8"></td>
+			<td width="17%">Name of Employer?</td>
+			<td width="35%" colspan="2">
+			<input type="text" name="employername" size="40"></td>
+		</tr>
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td width="20%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">5. Ethnic Origin (Optional):</td>
+			<td width="34%" colspan="2"><select size="1" name="ethnic">
+			<option>---</option>
+			<option>White</option>
+			<option>African-American</option>
+			<option>Hispanic</option>
+			<option>Asian/Pacific Islander</option>
+			<option>American Indian or Native Alaskan</option>
+			<option>Greek</option>
+			<option>Other</option>
+			</select></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">6. Student Classification at USF
+			for Fall 2014:</td>
+			<td width="34%" colspan="2">
+			<select size="1" name="studentclassification">
+			<option>---</option>
+			<option>Freshman</option>
+			<option>Sophomore</option>
+			<option>Junior</option>
+			<option>Senior</option>
+			<option>2nd Bachelor's degree</option>
+			<option>Graduate Student</option>
+			</select></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">7. Anticipated date of Graduation:</td>
+			<td width="53%" colspan="3"><select size="1" name="graduation">
+			<option>---</option>
+			<option>Fall</option>
+			<option>Spring</option>
+			<option>Summer</option>
+			</select> Year: <input type="text" name="year" size="10"> Major:
+			<input type="text" name="major" size="20"></td>
+		</tr>
+		<tr>
+			<td width="48%" colspan="3">8. Total number of family members in the
+			household (include yourself):</td>
+			<td width="17%"><input type="text" name="numberhousehold" size="20"></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">9. * Please discuss your financial need
+			and your educational goals for the committee to consider?</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">
+			<textarea rows="10" name="edgoals" cols="68"></textarea></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">10. * Are you a community volunteer?&nbsp;</td>
+			<td width="17%"><select size="1" name="volunteer">
+			<option value="0">---</option>
+			<option value="-1">Yes</option>
+			<option value="0">No</option>
+			</select></td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="48%" colspan="3">List three organizations which you
+			actively participate with:</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">
+			<textarea rows="10" name="organizations" cols="68"></textarea></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td width="20%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">I am applying for the following
+			scholarship(s):</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td width="20%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="31%" colspan="2">Apply only for the scholarships you
+			qualify for.</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="20%">&nbsp;</td>
+			<td width="20%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<!--<tr>
+			<td width="65%" colspan="4">
+			<input type="checkbox" name="stormtriathlon" value="-1">Sarasota Storm Triathlon Club</td>
+			<td width="17%">&nbsp;</td>
+		</tr>-->
+
+
+		<tr>
+			<td width="65%" colspan="4" height="22">
+			<input type="checkbox" name="bob" value="-1">Brunch on the Bay
+			Endowed Scholars Program</td>
+			<td width="17%" height="22">&nbsp;</td>
+		</tr>
+
+
+
+		<tr>
+			<td width="65%" colspan="4">
+			<input type="checkbox" name="selbyach" value="-1">Selby Foundation &#8211;
+			Achievers Scholarship</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">
+			<input type="checkbox" name="selbyedu" value="-1">Selby Foundation &#8211;
+			Future Educators Scholarship</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">
+			<input type="checkbox" name="SSTC" value="-1"><span>Laurey T. Stryker Scholarship For NEW Undergraduate Students</span></td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td width="65%" colspan="4"><br>
+			</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">I certify that the information on this
+			application is true and I hereby authorize the University of South
+			Florida and any of its designated officials to release information
+			from my official college records to the USF Sarasota-Manatee
+			Scholarship Committee.</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="82%" colspan="5">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="65%" colspan="4">
+			<input type="checkbox" name="certify" value="-1">Check to certify
+			your acceptance of the above statement.</td>
+			<td width="17%">&nbsp;</td>
+		</tr>
+	</table>
+	<p align="left"><input type="submit" value="Submit" name="B1"><input type="reset" value="Reset" name="B2"></p>
+	<input type="hidden" name="Year" value="2015">
+	<input type="hidden" name="ID" value="1">
+</form>

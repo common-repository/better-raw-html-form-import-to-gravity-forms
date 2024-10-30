@@ -1,0 +1,35 @@
+#wpfi_editForm div {
+    float: left;
+}
+#wpfi_editForm input[type='text'] {
+    width:100%;
+}
+#wpfi_form_head div {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#wpfi_editForm ul li {
+    min-height: 30px;
+    width: 750px;
+    padding: 10px;
+    cursor: move;
+    clear:both;
+}
+#wpfi_editForm ul li div {
+    margin-right:10px;
+}
+#wpfi_editForm ul li br {
+    clear:both;
+}
+#wpfi_editForm ul li div:nth-child(1), #wpfi_editForm div:nth-child(1) {
+    width:40px;
+}
+#wpfi_editForm ul li div:nth-child(2), #wpfi_editForm div:nth-child(2) {
+    width:140px;
+}
+#wpfi_editForm ul li div:nth-child(3), #wpfi_editForm div:nth-child(3) {
+    width:160px;
+}
+#wpfi_editForm ul li div:nth-child(4), #wpfi_editForm div:nth-child(4) {
+    width:150px;
+}
